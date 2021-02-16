@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar fixed-top navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Meu to do List</a>
+                <a class="navbar-brand" href="#">Meu to do list</a>
                 <button type="button" class="btn btn-outline-primary">
                     <span class="mr-2">Adicionar lista</span>
                     <i class="far fa-plus-square"></i>
@@ -42,8 +42,28 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
-                        <h4>Body</h4>
+                    <div class="col-12 to-do-list-body">
+                        <div class="row to-do align-items-center shadow-sm">
+                            <div class="col-6">
+                                <div class="col-6 status-container">
+                                    <p class="to-do-text">
+                                        Status:
+                                        <span class="status">Fazendo</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-6 to-do-icons">
+                                <div class="to-do-icon-btn config-to-do">
+                                    <i class="fas fa-cog align-middle"></i>
+                                </div>
+                                <div class="to-do-icon-btn remove-to-do">
+                                    <i class="fas fa-minus align-middle"></i>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <p class="to-do-text">Limpar a casa</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
